@@ -1,0 +1,28 @@
+{
+	"name": "mowazir/framework-test",
+	"description": "A php framework mini project",
+	"minimum-staability": "dev",
+	"licence": "MIT",
+	"authors": [
+		{
+			"name": "Abdussamad Mo",
+			"email": "abdussamadoduola@gmail.com"
+		}
+	],
+	"autoload": {
+		"psr-4": {
+			"App\\": "src/",
+			"Mowazir\\Framework\\": "framework/"
+		}
+	},
+
+	"require": {
+		"symfony/var-dumper": "*",
+		"nikic/fast-route": "6.3.x-dev"
+	},
+
+	"require": {
+		"nikic/fast-route": "2.0.x-dev"
+	}
+
+}
